@@ -1,0 +1,14 @@
+
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:replace="template/layout/base :: common_header(~{::title},~{::link})">
+  <!--- 호출이 되면 title과 link를 넘긴다.-->
+  <title>메인 타이틀</title>
+  <link rel="stylesheet" th:href="@{/css/bootstrap.min.css}">
+  <link rel="stylesheet" th:href="@{/themes/smoothness/jquery-ui.css}">
+  <!--  레이아웃 틀을 만들어준다.-->
+</head>
+<body>
+메인 컨텐츠
+</body>
+</html>
